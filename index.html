@@ -1,78 +1,56 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Verben Flashcards</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <script defer="defer" src="js/main.2c8147235d25e938e5dd.js"></script>
-  </head>
-  <body>
-    <div class="card-container">
-      <div class="question"></div>
-      <div class="solution"></div>
-    </div>
-    <div class="actions">
-      <button class="flip">Flip</button> <button class="next">Nächste</button>
-    </div>
-    <style>
-      .hidden {
-        display: none;
-      }
+<!doctype html><html><head><meta charset="utf-8"><link rel="manifest" href="manifest.json"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="apple-touch-icon" href="icon-192.png"><title>Verben Flashcards</title><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"><script defer="defer" src="js/main.31e020d9bc96d846ce70.js"></script></head><body><div class="card-container"><div class="question"></div><div class="solution"></div></div><div class="actions"><button class="flip">Flip</button> <button class="next">Nächste</button></div><script>if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function () {
+                    navigator.serviceWorker.register('service-worker.js');
+                });
+            }</script><style>.hidden {
+                display: none;
+            }
 
-      body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        font-family: "Roboto", sans-serif;
-        height: 100vh;
-      }
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                font-family: 'Roboto', sans-serif;
+            }
 
-      .card-container {
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+            .card-container {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
 
-      .question,
-      .solution {
-        background-color: #f2f2f2;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        padding: 20px;
-        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-        max-width: 90%;
-        text-align: center;
-        margin-bottom: 20px;
-        font-size: 30px;
-      }
+            .question,
+            .solution {
+                background-color: #f2f2f2;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                padding: 20px;
+                box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+                max-width: 90%;
+                text-align: center;
+                margin-bottom: 20px;
+                font-size: 30px;
+            }
 
-      .actions {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 90%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
+            .actions {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 90%;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
 
-      button {
-        background-color: red;
-        color: white;
-        border: none;
-        padding: 50px;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 20px;
-      }
-    </style>
-  </body>
-</html>
+            button {
+                background-color: red;
+                color: white;
+                border: none;
+                padding: 50px;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 20px;
+            }</style></body></html>
